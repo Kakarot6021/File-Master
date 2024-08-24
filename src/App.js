@@ -8,6 +8,7 @@ import NavbarComponent from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
 
 import "./App.css";
+import "@babel/core";
 
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "./redux/actionCreators/authActionCreators";
